@@ -27,4 +27,4 @@ section{
 ```
 The last is not supported by all browsers, but it should.
 
-<a href="https://simmoe.github.io/css-fullpage-snap/">See deno here</a>
+<a href="https://simmoe.github.io/css-fullpage-snap/">See demo here</a>
