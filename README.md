@@ -11,7 +11,7 @@ body {
   scroll-snap-type: y mandatory;
 }
 ```
-..where x and y is the scroll direction. Then you give some elements on your page a scroll snap property:
+..where x and y is the scroll direction. Then you give elements inside the container a scroll snap property:
 ```html
 section{
   scroll-snap-align: center;
