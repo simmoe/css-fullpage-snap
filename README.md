@@ -1,6 +1,6 @@
 # css-fullpage-snap
 
-<<CSS Scroll Snap is a module of CSS that introduces scroll snap positions, which enforce the scroll positions that a scroll container’s scrollport may end at after a scrolling operation has completed.>>
+"CSS Scroll Snap is a module of CSS that introduces scroll snap positions, which enforce the scroll positions that a scroll container’s scrollport may end at after a scrolling operation has completed."
 **MDN**
 
 In human words, scroll snapping let's you control how your page scrolls between different sections. The basic concpt is simple: you give a scroll container (ie the body element) 
