@@ -17,16 +17,46 @@ section{
     height:100vh;
     scroll-snap-align: center;
     scroll-snap-stop: always; 
+    display:grid;
+    place-items: center;
 }
 
 section:first-child{
     background-color: black;
 }
 
+section h1{
+    font-weight:300;
+    font-size:6rem;
+    color:#eee;
+}
+
 section:nth-child(2){
-    background-color: #eee;
+    background-color: #0a975d;
 }
 
 section:last-child{
     background-color: steelblue;
 }
+
+.circle{
+    margin-top:10%;
+    fill: rgba(240,240,240, .1);
+    animation: bounce 2s infinite ease backwards;
+    animation-delay: 2s;
+}
+
+@keyframes bounce{
+    0%{
+        transform: translateY(0) scale(.6);
+        opacity:0;
+    }
+    40%{
+        opacity:.6;
+    }
+    100%{
+        transform: translateY(-400px) scale(.7);
+        opacity:0;
+    }
+  }
+  
